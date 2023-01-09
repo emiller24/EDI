@@ -1,0 +1,21 @@
+function setup() { //runs one time
+  createCanvas (720,720);//canvas is 720 pixels x 720 pixels
+  background (0,0,255); // background is rbg pink
+}
+
+function draw() {//runs in a loop
+fill (0,255,255);// fills pink
+strokeWeight (8);// stroke weight
+var num = 2 ;
+var sidelen = 720/num ;
+
+
+for (var y = 0; y < 720; y + sidelen){ // loop creates a row in the y direction
+for (var x = 0; x < 720; x + sidelen){ // loop creates a row in the x direction
+  quad (x,y,
+      x+sidelen,y,
+      x+sidelen,y+sidelen,
+      x, y +sidelen);
+}
+}
+}
