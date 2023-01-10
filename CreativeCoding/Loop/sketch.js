@@ -10,9 +10,9 @@ strokeWeight (8);// stroke weight
 for (var y = 0; y < 720; y + 360){ // loop creates a row in the y direction
 for (var x = 0; x < 720; x + 360){ // loop creates a row in the x direction
   quad (x,y,
-      x+360,y,
-      x+360,y+360,
-      x, y +360);
+      x + 360, y,
+      x + 360, y + 360,
+      x, y + 360);
 }
 }
 }
