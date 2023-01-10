@@ -1,11 +1,11 @@
 function setup() { //runs one time
   createCanvas (720,720);//canvas is 720 pixels x 720 pixels
-  background (255,0,255); // background is rbg pink
+  background (255,255,0); // background is rbg pink
 }
 
 function draw() {//runs in a loop
 fill (0,255,255);// fills pink
-strokeWeight (1);// stroke weight
+strokeWeight (8);// stroke weight
 
 for (var y = 0; y < 720; y + 360){ // loop creates a row in the y direction
 for (var x = 0; x < 720; x + 360){ // loop creates a row in the x direction
