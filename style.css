@@ -23,6 +23,12 @@ h1{
      top: 0%;
 }
 
+h2 {
+positon: absolute;
+
+
+}
+
 p{
     position: absolute;
     font-size: 0.875em;
