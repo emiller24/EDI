@@ -1,11 +1,16 @@
+function setup() { //runs one time
+  createCanvas (2 * windowWidth, 2 * windowHeight);//canvas is 720 pixels x 720 pixels
+  stroke (212,142,142)
+}
+
 let gif;
 function preload () {
   gif = loadImage ('../assets/MillerBackground.gif');
 }
-function setup() { //runs one time
-  createCanvas (windowWidth,windowWidth);//canvas is 720 pixels x 720 pixels
-  background ('lavender'); // background is rbg pink
-}
+function setup () {
+  createCanvas (windowWidth, windowWidth);
+  background ('lavender');
+  }
 
 function draw() {//runs in a loop
 //strokeWeight (1);
