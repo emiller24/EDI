@@ -1,6 +1,6 @@
 let gif;
 function preload () {
-  gif = loadImage ('assets/MillerBackground.gif');
+  gif = loadImage ('../assets/MillerBackground.gif');
 }
 function setup() { //runs one time
   createCanvas (windowWidth,windowWidth);//canvas is 720 pixels x 720 pixels
