@@ -1,6 +1,6 @@
 function setup() { //runs one time
   createCanvas (2 * windowWidth, 2 * windowHeight);//canvas is 720 pixels x 720 pixels
-  stroke (212,142,142)
+  stroke (212,142,142);
 }
 
 let gif;
