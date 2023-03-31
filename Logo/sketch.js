@@ -5,7 +5,7 @@ function setup() { //runs one time
 
 let gif;
 function preload () {
-  gif = loadImage ('assets/MillerBackground.gif');
+  gif = loadImage ('../assets/MillerBackground.gif');
 }
 function setup () {
   createCanvas (windowWidth, windowWidth);
