@@ -9,7 +9,7 @@ function preload () {
 }
 function setup () {
   createCanvas (windowWidth, windowWidth);
-  background ('lavender');
+  //background ('lavender');
   }
 
 function draw() {//runs in a loop
